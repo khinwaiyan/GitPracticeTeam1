@@ -1,4 +1,4 @@
-import cart, hate
+import cart, hate, love
 
-def main(cart, hate):
-	return cart.cart(cart) +  hate.hate(hate)
+def main(cart, hate, love):
+	return cart.cart(cart) +  hate.hate(hate) + love.love(love)
