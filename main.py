@@ -1,2 +1,4 @@
-def main():
-	return 0
+import love
+
+def main(love):
+	return love.love(love)
